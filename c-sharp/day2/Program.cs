@@ -70,7 +70,7 @@ static int CalcDepthAndPosition2(string filePath)
 
 	Console.WriteLine($"horizontal position: {horizontalPosition}");
 	Console.WriteLine($"depth: {depth}");
-	t return horizontalPosition * depth;
+	return horizontalPosition * depth;
 }
 
 const string testFilePath = @"day2-test-input.txt";
